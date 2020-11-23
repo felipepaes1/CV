@@ -27,7 +27,7 @@ main{
 
 .card{
     background-color: #F5F5F7;
-    width: 900px;
+    width: 70%;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
     margin-bottom: 50px;
 }
