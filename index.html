@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Paes</title>
+<!--
+    ./ -> significa o caminho para a pasta atual!!
+-->
+
+<link rel="stylesheet" href="./CSS/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header></header>
+    
+    <main>
+
+        <h1 id="nome">Felipe Paes</h1>
+        <h2 id="profissao">Professor e Pesquisador de Engenharia e Tecnologia</h2>
+        <div id="card-pessoal" class="card">
+            <div id="imagem"></div>     
+            <span class="card-titulo">Felipe Gabriel Forcatto Paes</span>   
+            <br>
+            <span id="subtitulo">Engenharia Mecatrônica</span>
+            <br>
+            <div id="linha"></div>
+            <br>
+            <span style="margin-top: 60px;"><b> Idade:</b> 21 anos</span>
+            <br>
+            <span style="margin-top: 80px;"><b> Email:</b> fpaes41@gmail.com</span>
+            <br>
+            <span style="margin-top: 105px;"><b> Telefone:</b> (43)991134462</span>
+
+            <footer>
+                <a href="https://github.com/felipepaes1" target="_blank">
+                    <i class="fa fa-github" style="font-size: 25px;"></i>
+                </a>
+
+                <a href="https://www.facebook.com/felipe.paes.509/" target="_blank">
+                    <i class="fa fa-facebook-square" style="font-size: 25px;"></i>
+                </a>
+
+                <a href="https://www.instagram.com/felipepaesss/" target="_blank">
+                    <i class="fa fa-instagram" style="font-size: 25px;"></i>
+                </a>
+            </footer>
+        </div>
+ 
+    <div id="card-musica" class="card">
+        <h1 class="audiotext"> Toque uma música apertando o play para melhorar sua experiência!</h1>
+        <audio src="radio.mp3"></audio>
+        <div class="linha1"></div>
+        <button class="botao"> Play </button>
+        <script>
+            const button = document.querySelector('button')
+            button.addEventListener('click', function(){
+                const audio = document.querySelector('audio')
+                audio.play()
+            })
+        
+            </script>
+        </div>
+        
+    <div id="card-sobre" class="card">
+        <h2 class="card-titulo">Sobre mim</h2>
+        <div class="linha"></div>
+        <p class="text-card"> Gosto de aprender coisas novas e de ser desafiado, carrego alguns princípios militares que acredito serem de grande valia na vida profissional. No meu tempo livre gosto de praticar esportes e fazer música. </p>    
+    </div>
+
+    <div id="card-formacao" class="card">
+        <h2 class="card-titulo">Formação</h2>
+        <div class="linha"></div>
+        <ul>
+            <li>2014 - 2015</li>
+            <span>PIC OBMEP</span>
+            <p class="text-card"> Programa de iniciação científica ofertada para premiados na OBMEP (Olímpiada Brasileira de Matemática das Escolas Públicas), realizado na UEL (Universidade Estadual de Londrina).</p>
+            
+            <li>2014 - 2016</li>
+            <span>CCAA</span>
+            <p class="text-card">Curso de Inglês concluído até o intermediário. </p> 
+
+            <li>2014 - 2016</li>
+            <span>Colégio Estadual Conselheiro Carrão</span>
+            <p class="text-card">Ensino médio completo. </p> 
+            <li>2017 - 2020</li>
+            <span>UNISATC</span>
+            <p class="text-card">Ensino superior incompleto, no oitavo semestre. </p> 
+        </ul>
+    </div>
+
+    <div id="card-experiencia" class="card">
+        <h2 class="card-titulo">Experiência Profissional</h2>
+        <div class="linha"></div>
+        <ul>
+            <li>2018</li>
+            <span>NPOR (Núcleo de preparação de Oficiais da Reserva, Artilharia)</span>
+            <p class="text-card"> Curso de Preparação para Oficiais tempórarios do Exército Brasileiro, o curso tem foco nos princípios e valores militares, aprendendo idem conhecimentos técnicos, práticos e teóricos da Arma de Artilharia. </p>
+        
+            <li>2018 - 2020</li>
+            <span>Pesquisador UNISATC</span>
+            <p class="text-card">Projeto de pesquisa Geopolímero na UNISATC (Universidade SATC), atuação na área de desenvolvimento químico do produto, ensaios mecânicos e químicos, elaboração de relatórios para simpósios e congressos, buscas técnicas e estado da arte.</p>
+        
+
+            <li>2019 - 2020</li>
+            <span>Professor UNISATC</span>
+            <p class="text-card">Professor na disciplina de Tecnologias Aplicadas no ensino infantil,médio, fundamental I e II, a disciplina compreende a iniciação na informática, programação,eletrônica e robótica, induzindo o aluno a criar soluções de frente a problemas e adquirir conhecimento na área da tecnologia</p>
+    </ul>
+    </div>
+
+
+    <div id="card-habilidades" class="card">
+        <h2 class="card-titulo">Habilidades Pessoais</h2>
+        <div class="linha"></div>
+        
+        <div id="main">
+            <div class="coluna-50">
+                <span>Liderança</span>
+                <div class="status-100">
+                    <div id="meu-status-ld"></div>
+                </div>
+            </div>
+            
+            <div class="coluna-50">
+                <span>Músico</span>
+                <div class="status-100">
+                    <div id="meu-status-ms"></div>
+                </div>
+            </div>
+
+            <div class="coluna-50">
+                <span>Relacionamento interpessoal</span>
+                <div class="status-100">
+                    <div id="meu-status-ri"></div>
+                </div>
+            </div>
+            
+            <div class="coluna-50">
+                <span>Flexibilidade e Criatividade</span>
+                <div class="status-100">
+                    <div id="meu-status-fc"></div>
+                </div>
+            </div>
+
+                <div class="coluna-50">
+                    <span>Inglês</span>
+                    <div class="status-100">
+                        <div id="meu-status-ing"></div>
+                    </div>
+                </div>
+
+        </div>    
+    
+    </div>
+
+    <div id="card-habilidadessf" class="card">
+        <h2 class="card-titulo">Habilidades: Softwares</h2>
+        <div class="linha"></div>
+        
+        <div id="main1">
+            <div class="coluna-50">
+                <span>Solidworks</span>
+                <div class="status-100">
+                    <div id="meu-status-sd"></div>
+                </div>
+            </div>
+
+            <div class="coluna-50">
+                <span>Edgecam</span>
+                <div class="status-100">
+                    <div id="meu-status-ed"></div>
+                </div>
+            </div>
+
+            <div class="coluna-50">
+                <span>Autocad</span>
+                <div class="status-100">
+                    <div id="meu-status-ad"></div>
+                </div>
+            </div>
+            
+            <div class="coluna-50">
+                <span>Matlab</span>
+                <div class="status-100">
+                    <div id="meu-status-mt"></div>
+                </div>
+            </div>
+
+        </div>    
+    
+    </div>
+
+
+    <div id="card-habilidadeslp" class="card">
+        <h2 class="card-titulo">Habilidades: Linguagens de Programação/Marcação</h2>
+        <div class="linha"></div>
+        
+        <div id="main2">
+            <div class="coluna-50">
+                <span>Javascript</span>
+                <div class="status-100">
+                    <div id="meu-status-js"></div>
+                </div>
+            </div>
+
+            <div class="coluna-50">
+                <span>HTML e CSS</span>
+                <div class="status-100">
+                    <div id="meu-status-html"></div>
+                </div>
+            </div> 
+
+            <div class="coluna-50">
+                <span>C++ / C</span>
+                <div class="status-100">
+                    <div id="meu-status-c"></div>
+                </div>
+            </div> 
+
+            <div class="coluna-50">
+                <span>Python</span>
+                <div class="status-100">
+                    <div id="meu-status-py"></div>
+                </div>
+            </div> 
+            
+        </div>    
+    
+    </div>
+
+    
+
+    
+    
+    </main>
+
+</body>
+</html>

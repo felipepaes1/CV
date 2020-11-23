@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    background-image: url(../img/camoufled.jpg.jpeg);
+    width: 100%;
+    height: 200px;
+}
+
+main{
+    position: relative;
+    /*background-color: rgb(0, 55, 100);*/
+    width: 900px;
+    height: 1000px;
+    float: left;
+}
+
+.card{
+    background-color: #F5F5F7;
+    width: 900px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+}
+
+div#imagem{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/aia.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+div#card-pessoal {
+    position: relative;
+    margin-top:20px;
+    background-color: rgb(229, 226, 226);
+    width: 900px;
+    height: 350px;
+}
+
+div#card-pessoal span{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    margin-left: 320px;
+}
+
+.card-titulo {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 85px;
+    font-size: 28px !important;
+    font-weight: bold;
+    color: black;
+}
+
+div#card-pessoal span#subtitulo{
+    margin-top: 45px;
+    color: slategrey;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+div#linha {
+    width: 455px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 320px;
+    border: 1px solid #a8a8a8;
+}
+
+div#card-pessoal footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 600px;
+    height: 60px;
+    align-items: center;
+    background: black;
+    bottom: 0px;
+}
+
+div#card-pessoal footer a{
+    width: 120px;
+    color: #F5F5F7;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+div#card-sobre{
+    height: 260px;
+}
+
+div#card-musica{
+    margin-top: -90px;
+    height: 250px
+}
+
+.linha{
+    position: absolute;
+    border: 1px solid #a8a8a8;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+
+.text-card{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: lighter;
+}
+
+div#card-sobre p {
+    position: absolute;
+    width: 730px;
+    margin-left: 85px;
+    margin-top: 100px;
+}
+
+div#card-formacao{
+    height: 750px; /*posso aumentar em relação a formação */
+}
+
+div#card-experiencia{
+    height: 800px;
+}
+
+div#card-habilidades{
+    height: 437px;
+}
+
+div#card-habilidadessf{
+    height: 437px;
+}
+
+div#card-habilidadeslp{
+    height: 437px;
+}
+
+div#card-experiencia ul,
+div#card-formacao ul{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+div#card-experiencia ul li,
+div#card-formacao ul li{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+div#card-experiencia ul span,
+div#card-formacao ul span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div#card-experiencia ul p,
+div#card-formacao ul p {
+    width: 670px;
+    margin-bottom: 30px;
+}
+
+h1#nome{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
+}
+
+h2#profissao{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+div#main1,
+div#main2,
+div#main {
+    position: absolute;
+    width: 730px;
+    height: 300px;
+    margin-left: 85px;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;   
+}
+
+.coluna-50{
+    width: 50%;
+    height: 80px;
+}
+div#main1,
+div#main2,
+div#main span{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div#main,
+div#main2,
+div#main1 span{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.status-100{
+    width: 236px;
+    height: 15px;
+    background-color: #c4c4c4;
+    border-radius: 22px;
+    margin-top: 10px;
+}
+
+div#meu-status-ld{
+    width: calc((236px * 90)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-ms{
+    width: calc((236px * 90)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-ri{
+    width: calc((236px * 90)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-fc{
+    width: calc((236px * 90)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-ing{
+    width: calc((236px * 75)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-sd{
+    width: calc((236px * 75)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-ed{
+    width: calc((236px * 75)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-ad{
+    width: calc((236px * 70)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-mt{
+    width: calc((236px * 55)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-js{
+    width: calc((236px * 40)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-html{
+    width: calc((236px * 60)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-c{
+    width: calc((236px * 75)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+div#meu-status-py{
+    width: calc((236px * 75)/100);
+    height: 15px;
+    background-color: #171416;
+    border-radius: 22px;
+}
+
+.botao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(14, 163, 76);
+    box-shadow: 0 5px 0 #035a1d;
+    margin-left: 405px;
+    margin-top: 50px;
+}
+
+.linha1{
+    position: absolute;
+    border: 1px solid #a8a8a8;
+    width: 750px;
+    margin-left: 90px;
+    margin-top:   15px;
+}
+
+.audiotext{
+    margin-top: 150px;
+    margin-left: 85px;
+    font-size: 28px !important;
+    font-weight: bold;
+    color: black;
+}
